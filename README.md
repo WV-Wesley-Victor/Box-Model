@@ -3,7 +3,7 @@
  
 ![Captura de Tela (33)](https://github.com/WV-Wesley-Victor/Box-Model/assets/137107062/4d42b19a-a66d-48a5-ae15-491df4270b7f)
 <p align="center">
-  <a href="https://wv-wesley-victor.github.io/Pagina-de-Login-Simplificada/" target="_blank">Clique aqui para visitar o projeto</a>
+  <a href="https://wv-wesley-victor.github.io/Box-Model/" target="_blank">Clique aqui para visitar o projeto</a>
 </p>
 
 ## Descrição
