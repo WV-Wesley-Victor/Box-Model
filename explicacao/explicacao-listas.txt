@@ -1,0 +1,22 @@
+vamos explicar o código HTML e CSS:
+
+HTML:
+- A estrutura HTML começa com a declaração do documento e as metainformações no <head>, que incluem a definição do conjunto de caracteres, a viewport e outras informações sobre a página.
+- No <body>, há um título <h1> indicando o tema da página: "Listas".
+- Logo abaixo do título, há um conjunto de links na parte superior da página que leva a outras páginas relacionadas.
+- Em seguida, há duas listas: uma lista não ordenada <ul> e uma lista ordenada <ol>. Ambas as listas contêm três itens <li>, que representam os itens da lista.
+
+CSS:
+- O CSS incluído na seção <style> estiliza os elementos HTML da página.
+- O fundo da página é configurado para usar a fonte "sans-serif".
+
+Elemento <ul> (Lista Não Ordenada):
+- O estilo para a lista não ordenada é definido usando ul li, que significa que todos os elementos <li> dentro de um elemento <ul> serão estilizados da mesma forma.
+- A propriedade list-style-type: none; remove o marcador padrão da lista, tornando-a sem marcadores (bullets).
+- A propriedade list-style-position: outside; define a posição do marcador fora do espaço de conteúdo da <li>. Por padrão, os marcadores são posicionados dentro do espaço da <li>, mas com essa propriedade, eles são posicionados fora.
+
+Elemento <ol> (Lista Ordenada):
+- O estilo para a lista ordenada é definido usando ol li, que significa que todos os elementos <li> dentro de um elemento <ol> serão estilizados da mesma forma.
+- A propriedade list-style: lower-latin inside; define o estilo da lista ordenada. Neste caso, os marcadores são exibidos em letras minúsculas no formato "a", "b", "c", etc., e eles são posicionados dentro do espaço da <li>.
+
+Em resumo, este código cria uma página com duas listas estilizadas usando CSS. A lista não ordenada não possui marcadores (bullets) e os marcadores da lista ordenada são exibidos em letras minúsculas.

@@ -1,0 +1,17 @@
+vamos explicar o código HTML e CSS:
+
+HTML:
+- A estrutura HTML começa com a declaração do documento e as metainformações no <head>, que incluem a definição do conjunto de caracteres, a viewport e outras informações sobre a página.
+- No <body>, há um título <h1> indicando o tema da página: "Margin Auto".
+- Logo abaixo do título, há um conjunto de links na parte superior da página que leva a outras páginas relacionadas.
+- Um parágrafo <p> comum contendo texto de exemplo ("Lorem ipsum...").
+
+CSS:
+- O CSS incluído na seção <style> estiliza os elementos HTML da página.
+- O fundo da página é configurado para usar a fonte "sans-serif".
+- A largura do corpo (<body>) é definida como 80% da largura da janela do navegador, e a margem é configurada como "auto". Isso faz com que o conteúdo do corpo seja centralizado horizontalmente na página. A cor de fundo do corpo é definida como cinza claro (#ccc).
+
+Elemento <h1>:
+- O título <h1> é estilizado com um fundo amarelo e o texto é centralizado usando text-align: center;.
+
+Em resumo, este código cria uma página simples com um título centralizado e um parágrafo de texto. A largura do corpo da página é definida como 80% da largura da janela do navegador, e o conteúdo é centralizado horizontalmente usando margin: auto;.

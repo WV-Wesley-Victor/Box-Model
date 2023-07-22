@@ -1,0 +1,24 @@
+vamos explicar o código HTML e CSS:
+
+HTML:
+- A estrutura HTML começa com a declaração do documento e as metainformações no <head>, que incluem a definição do conjunto de caracteres, a viewport e outras informações sobre a página.
+- No <body>, há um título <h1> indicando o tema da página: "Links".
+- Logo abaixo do título, há um conjunto de links na parte superior da página que leva a outras páginas relacionadas.
+- Abaixo dos links, há um parágrafo <p> com um texto de exemplo e um link que redireciona para uma página chamada "Box Sizing".
+
+CSS:
+- O CSS incluído na seção <style> estiliza os elementos HTML da página.
+- O fundo da página é configurado para usar a fonte "sans-serif".
+
+Elemento <a> (Links):
+- Os links são estilizados usando a propriedade display: inline-block, o que permite definir largura e altura, tornando-os elementos do tipo bloco sem quebrar a linha.
+- Eles têm um pequeno preenchimento (padding) de 3px.
+- Quando um link ainda não foi visitado (estado :link), sua cor é vermelha (color: red).
+- Quando um link já foi visitado (estado :visited), sua cor é verde (color: green).
+- Quando o cursor do mouse está sobre um link (estado :hover), o plano de fundo muda para cinza (#ccc).
+- Quando um link está sendo clicado (estado :active), o plano de fundo muda para amarelo (background-color: yellow).
+
+Conteúdo do Parágrafo:
+- O parágrafo possui um texto de exemplo com um link para outra página chamada "Box Sizing". Esse link também possui estilos padrão de links, incluindo a mudança de cor quando o cursor passa sobre ele.
+
+Em resumo, este código cria uma página com links estilizados usando CSS. Os links mudam de cor quando visitados, e o plano de fundo de um link muda quando o cursor está sobre ele ou quando está sendo clicado. O exemplo no parágrafo demonstra a aplicação desses estilos em um link específico na página.

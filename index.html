@@ -1,142 +1,140 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Wesley Victor" />
-    <title>Box Model</title>
-    <style>
-      body {
-        font-family: sans-serif;
-      }
 
-      p {
-        background-color: #ccc;
-        margin-top: 0;
-        /* padding-top: 20px;
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Wesley Victor" />
+  <title>Box Model</title>
+  <style>
+    body {
+      font-family: sans-serif;
+    }
+
+    p {
+      background-color: #ccc;
+      margin-top: 0;
+      /* padding-top: 20px;
             padding-left: 20px;
             padding-bottom: 20px;
             padding-right: 36px;
             padding: 20px 36px 20px 20px;
             text-align: justify; */
-      }
+    }
 
-      h1 {
-        background-color: #a07c7c;
-        padding: 16px;
-      }
+    h1 {
+      background-color: #a07c7c;
+      padding: 16px;
+    }
 
-      h2 {
-        background-color: #37a951;
-        margin-top: 56px;
-        border-bottom: 2px solid green;
-        /* width: 50%;
+    h2 {
+      background-color: #37a951;
+      margin-top: 56px;
+      border-bottom: 2px solid green;
+      /* width: 50%;
             height: 150px;
             margin: 56px;
             margin-top: 50px;
             margin-left: 100px;
             margin: 50px 0 0 100px; */
-      }
+    }
 
-      .destaque {
-        background-color: orange;
-      }
+    .destaque {
+      background-color: orange;
+    }
 
-      .size {
-        width: 50%;
-        height: 100px;
-      }
+    .size {
+      width: 50%;
+      height: 100px;
+    }
 
-      .padding {
-        padding: 26px;
-      }
+    .padding {
+      padding: 26px;
+    }
 
-      .margin {
-        margin: 50px 0 20px 100px;
-      }
+    .margin {
+      margin: 50px 0 20px 100px;
+    }
 
-      .borda {
-        border-top-style: solid;
-        border-top-width: 10px;
-        border-top-color: #287cac;
-        /* border-top: 10px solid #287cac; */
-        border-right: 10px dotted red;
-        border-bottom: 10px dashed blue;
-        border-left: 30px groove green;
-        /* border: 10px solid red; */
-        padding: 10px;
-      }
+    .borda {
+      border-top-style: solid;
+      border-top-width: 10px;
+      border-top-color: #287cac;
+      /* border-top: 10px solid #287cac; */
+      border-right: 10px dotted red;
+      border-bottom: 10px dashed blue;
+      border-left: 30px groove green;
+      /* border: 10px solid red; */
+      padding: 10px;
+    }
 
-      .borda2 {
-        border: 5px dashed blue;
-      }
+    .borda2 {
+      border: 5px dashed blue;
+    }
 
-      .outline {
-        outline: 5px dashed red;
-      }
-    </style>
-  </head>
+    .outline {
+      outline: 5px dashed red;
+    }
+  </style>
+</head>
 
-  <body>
-    <h1>Box Model</h1>
-    <a href="index.html"> Box Model </a>|<a href="box_sizing.html">
-      Box Sizing </a
-    >|<a href="display.html"> Display </a>|<a href="link.html"> Links </a>|<a
-      href="margin_auto.html"
-    >
-      Margin auto </a
-    >|<a href="listas.html"> Listas</a>
-    <h2>Width e Height</h2>
-    <!-- shift + alt -->
-    <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, quos
-      maxime repudiandae hic dignissimos nobis eos. Rerum harum quam nemo
-      reiciendis! Necessitatibus dolor corporis perspiciatis ex eligendi quos
-      tempore officiis?
-    </p>
-    <p class="destaque size">Lorem ipsum dolor sit amet.</p>
-    <p>Lorem ipsum dolor sit amet.</p>
-    <h2>Padding</h2>
-    <!-- shift + alt -->
-    <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, quos
-      maxime repudiandae hic dignissimos nobis eos. Rerum harum quam nemo
-      reiciendis! Necessitatibus dolor corporis perspiciatis ex eligendi quos
-      tempore officiis?
-    </p>
-    <p class="destaque padding">Lorem ipsum dolor sit amet.</p>
-    <p>Lorem ipsum dolor sit amet.</p>
-    <h2>Margin</h2>
-    <!-- shift + alt -->
-    <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, quos
-      maxime repudiandae hic dignissimos nobis eos. Rerum harum quam nemo
-      reiciendis! Necessitatibus dolor corporis perspiciatis ex eligendi quos
-      tempore officiis?
-    </p>
-    <p class="destaque margin">Lorem ipsum dolor sit amet.</p>
-    <p>Lorem ipsum dolor sit amet.</p>
-    <h2>Border</h2>
-    <!-- shift + alt -->
-    <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, quos
-      maxime repudiandae hic dignissimos nobis eos. Rerum harum quam nemo
-      reiciendis! Necessitatibus dolor corporis perspiciatis ex eligendi quos
-      tempore officiis?
-    </p>
-    <p class="destaque borda">Lorem ipsum dolor sit amet.</p>
-    <p>Lorem ipsum dolor sit amet.</p>
-    <h2>Outline</h2>
-    <!-- shift + alt -->
-    <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, quos
-      maxime repudiandae hic dignissimos nobis eos. Rerum harum quam nemo
-      reiciendis! Necessitatibus dolor corporis perspiciatis ex eligendi quos
-      tempore officiis?
-    </p>
-    <p class="destaque outline">Lorem ipsum dolor sit amet.</p>
-    <p class="destaque borda2">Lorem ipsum dolor sit amet.</p>
-    <p class="destaque borda2 outline">Lorem ipsum dolor sit amet.</p>
-    <p>Lorem ipsum dolor sit amet.</p>
-  </body>
+<body>
+  <h1>Box Model</h1>
+  <a href="index.html"> Box Model </a>|<a href="box_sizing.html">
+    Box Sizing </a>|<a href="display.html"> Display </a>|<a href="link.html"> Links </a>|<a href="margin_auto.html">
+    Margin auto </a>|<a href="listas.html"> Listas</a>
+  <h2>Width e Height</h2>
+  <!-- shift + alt -->
+  <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, quos
+    maxime repudiandae hic dignissimos nobis eos. Rerum harum quam nemo
+    reiciendis! Necessitatibus dolor corporis perspiciatis ex eligendi quos
+    tempore officiis?
+  </p>
+  <p class="destaque size">Lorem ipsum dolor sit amet.</p>
+  <p>Lorem ipsum dolor sit amet.</p>
+  <h2>Padding</h2>
+  <!-- shift + alt -->
+  <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, quos
+    maxime repudiandae hic dignissimos nobis eos. Rerum harum quam nemo
+    reiciendis! Necessitatibus dolor corporis perspiciatis ex eligendi quos
+    tempore officiis?
+  </p>
+  <p class="destaque padding">Lorem ipsum dolor sit amet.</p>
+  <p>Lorem ipsum dolor sit amet.</p>
+  <h2>Margin</h2>
+  <!-- shift + alt -->
+  <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, quos
+    maxime repudiandae hic dignissimos nobis eos. Rerum harum quam nemo
+    reiciendis! Necessitatibus dolor corporis perspiciatis ex eligendi quos
+    tempore officiis?
+  </p>
+  <p class="destaque margin">Lorem ipsum dolor sit amet.</p>
+  <p>Lorem ipsum dolor sit amet.</p>
+  <h2>Border</h2>
+  <!-- shift + alt -->
+  <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, quos
+    maxime repudiandae hic dignissimos nobis eos. Rerum harum quam nemo
+    reiciendis! Necessitatibus dolor corporis perspiciatis ex eligendi quos
+    tempore officiis?
+  </p>
+  <p class="destaque borda">Lorem ipsum dolor sit amet.</p>
+  <p>Lorem ipsum dolor sit amet.</p>
+  <h2>Outline</h2>
+  <!-- shift + alt -->
+  <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, quos
+    maxime repudiandae hic dignissimos nobis eos. Rerum harum quam nemo
+    reiciendis! Necessitatibus dolor corporis perspiciatis ex eligendi quos
+    tempore officiis?
+  </p>
+  <p class="destaque outline">Lorem ipsum dolor sit amet.</p>
+  <p class="destaque borda2">Lorem ipsum dolor sit amet.</p>
+  <p class="destaque borda2 outline">Lorem ipsum dolor sit amet.</p>
+  <p>Lorem ipsum dolor sit amet.</p>
+</body>
+
 </html>

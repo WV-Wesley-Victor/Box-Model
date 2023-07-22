@@ -1,0 +1,30 @@
+vamos explicar o código HTML e CSS:
+
+HTML:
+- A estrutura HTML começa com a declaração do documento e as metainformações no <head>, que incluem a definição do conjunto de caracteres, a viewport e outras informações sobre a página.
+- No <body>, há um título <h1> indicando o tema da página: "Display".
+- Em seguida, há um conjunto de links na parte superior da página que leva a outras páginas relacionadas.
+- Logo abaixo dos links, há um parágrafo <p> com um texto de exemplo.
+
+CSS:
+- O CSS incluído na seção <style> estiliza os elementos HTML da página.
+- O fundo da página é configurado para usar a fonte "sans-serif".
+- O parágrafo <p> tem uma largura de 50% e um plano de fundo cinza (#ccc).
+
+Título <h1>:
+- O título possui uma borda vermelha de 2px de espessura e uma largura de 25% do contêiner pai.
+
+Elemento <a>:
+- Os links têm um plano de fundo amarelo e um preenchimento (padding) de 10px. Além disso, a propriedade display: inline-block é aplicada, o que permite definir a largura e altura dos links, tornando-os elementos do tipo bloco sem quebrar a linha.
+
+Elemento <strong>:
+- O elemento <strong> é estilizado com um plano de fundo vermelho (#cd7777), uma altura de 60px e uma largura de 50%. Ele também recebe a propriedade display: inline-block, o que permite definir a largura e altura.
+
+Elemento <b>:
+- O elemento <b> é estilizado com display: none, o que faz com que ele fique oculto e não seja renderizado na página.
+
+Conteúdo do Parágrafo:
+- O conteúdo do parágrafo possui vários elementos inline como links <a>, elementos em negrito <b>, elementos em itálico <i>, e elementos <strong>.
+- Os links e elementos em negrito têm estilos visíveis, enquanto o elemento <strong> e elementos em itálico têm estilos visíveis definidos no CSS. O elemento <b> está oculto porque tem a propriedade display: none.
+
+Em resumo, este código cria uma página com alguns elementos estilizados usando CSS. Ele demonstra o uso da propriedade display: inline-block para definir a largura e altura de elementos inline, permitindo que eles se comportem como elementos de bloco. Além disso, mostra como ocultar elementos usando a propriedade display: none.

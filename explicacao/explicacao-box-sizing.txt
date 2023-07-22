@@ -1,0 +1,25 @@
+vamos explicar detalhadamente o código HTML e CSS:
+
+HTML:
+- A estrutura HTML começa com a declaração do documento e as metainformações no <head>, que incluem a definição do conjunto de caracteres, a viewport e outras informações sobre a página.
+- No <body>, há um título <h1> indicando o tema da página: "Box Sizing".
+- Em seguida, há um conjunto de links na parte superior da página que leva a outras páginas relacionadas.
+- Logo após os links, há quatro parágrafos <p>, cada um com uma classe específica que será usada para aplicar diferentes estilos CSS.
+
+CSS:
+- O CSS incluído na seção <style> estiliza os elementos HTML da página.
+- O fundo da página é configurado para usar a fonte "sans-serif".
+- Os parágrafos <p> têm uma largura de 500px e um plano de fundo cinza (#ccc).
+
+Classe .p1:
+- Esta classe aplica um preenchimento (padding) de 25px ao redor do parágrafo.
+
+Classe .p2:
+- Esta classe aplica um preenchimento (padding) de 25px e uma borda de 10px sólida verde ao redor do parágrafo.
+
+Classe .p4:
+- Esta classe aplica um preenchimento (padding) de 25px e uma borda de 10px sólida verde ao redor do parágrafo.
+- Além disso, a propriedade box-sizing: content-box é aplicada a este parágrafo. O valor content-box é o valor padrão da propriedade box-sizing, que define que o preenchimento e a borda são adicionados ao tamanho total do elemento. Neste caso, a borda e o preenchimento aumentarão o tamanho total do parágrafo.
+- A propriedade margin-bottom é definida como 250px, criando um espaço extra na parte inferior do parágrafo, resultando em um espaço em branco maior abaixo do último parágrafo.
+
+Em resumo, esse código cria uma página que demonstra o comportamento do Box Sizing. Cada parágrafo possui diferentes classes que aplicam estilos específicos de preenchimento e borda. O último parágrafo (<p class="p4">) também mostra como a propriedade box-sizing afeta o tamanho total do elemento quando o preenchimento e a borda são adicionados. A propriedade margin-bottom é usada para criar um espaço extra na parte inferior do último parágrafo.
