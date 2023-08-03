@@ -13,6 +13,24 @@ O Box Model é um conceito fundamental do CSS que define a forma como o espaço 
 * Exemplos práticos: O repositório inclui uma série de exemplos de código que ilustram diferentes cenários do Box Model aplicados em elementos HTML, permitindo que você compreenda claramente o comportamento de cada propriedade.
 * Demonstração interativa: Experimente um playground interativo para ajustar os valores do Box Model e visualizar instantaneamente o impacto nas dimensões e espaçamento dos elementos.
 
+## Fontes de Pesquisa
+entender o modelo de caixa (box model) é fundamental para o desenvolvimento web usando HTML e CSS. Aqui estão algumas fontes de pesquisa que podem ajudá-lo a aprender sobre o box model:
+
+* MDN Web Docs - Box Model: A documentação da MDN é uma excelente fonte para aprender sobre o box model, com explicações detalhadas e exemplos práticos.
+Documentação: https://developer.mozilla.org/pt-BR/docs/Web/CSS/box_model
+* W3Schools - CSS Box Model: A W3Schools oferece um tutorial abrangente sobre o box model, com exemplos interativos e práticos.
+Tutorial: https://www.w3schools.com/css/css_boxmodel.asp
+* CSS-Tricks Guide to Box Sizing: O CSS-Tricks tem um guia detalhado sobre a propriedade box-sizing, que é uma parte fundamental do box model.
+Artigo: https://css-tricks.com/box-sizing/
+* Traversy Media (YouTube): Brad Traversy tem um tutorial em vídeo sobre o box model, explicando como as margens, bordas e preenchimento afetam o layout dos elementos.
+Vídeo Tutorial: https://www.youtube.com/watch?v=HNgdhp1_kEE
+* Codecademy: A Codecademy oferece um curso interativo que aborda o box model e outros conceitos de layout em CSS.
+Curso: https://www.codecademy.com/learn/paths/full-stack-engineer-career-path
+* YouTube em geral: Procure por vídeos no YouTube com termos como "CSS box model tutorial" para encontrar uma variedade de tutoriais em vídeo.
+* GitHub: Procure por repositórios públicos no GitHub que contenham exemplos de código relacionados ao box model. Analisar o código de projetos existentes pode ajudar a entender melhor como aplicar o box model na prática.
+
+Lembre-se de praticar o que você aprende, criando projetos pessoais e experimentando diferentes cenários. Isso ajudará você a internalizar os conceitos do box model e a se tornar mais confortável ao lidar com layouts em CSS.
+
 ## Instalação (caso aplicável)
 Este projeto é baseado em tutoriais online hospedados no próprio repositório e não requer instalação local. Basta acessar o URL fornecido e explorar os exemplos disponíveis.
 
